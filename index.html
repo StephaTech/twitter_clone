@@ -1,89 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    <!-- <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/styles.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-     -->
-     <link rel="stylesheet" href="css/style.css"/>
-     <link rel="stylesheet" href="css/blocks/container.css"/>
-     <link rel="stylesheet" href="css/blocks/twitterbrand.css"/>
-     <link rel="stylesheet" href="css/blocks/sidebar-menu.css"/>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- to indent the code is hold shift + tab -->
+<!-- to commet code is hold ctrl + / -->
+<link rel="stylesheet" href="css/style.css"/>
+<link rel="stylesheet" href="css/blocks/container.css"/>
+<link rel="stylesheet" href="css/blocks/twitterbrand.css"/>
+<link rel="stylesheet" href="css/blocks/sidebar-menu.css"/>
+<link rel="stylesheet" href="css/blocks/timeline-tweet.css"/>
+<link rel="stylesheet" href="css/blocks/trends"/>
 
-     
-        <title>Twitter Clone</title>
-    </head>
-    <body>
+
+<title>Twitter Clone</title>
+</head>
+<body>
 </div>
 <!-- adding menu item and icon to the left sidebar menu -->
 <div class="container">
-        <div class="container__left-sidebar-container">
-            <img src="./svg/twitter.svg" class="brand" />
-            <div class="sidebar-menu">
-              <div class="sidebar-menu__item sidebar-menu__item--active">
-                <img src="./svg/home.svg" class="sidebar-menu__item-icon" />
-                Home
-              </div>
-              <div class="sidebar-menu__item">
-                <img src="./svg/explore.svg" class="sidebar-menu__item-icon" />
-                Explore
-              </div>
-    
-              <div class="sidebar-menu__item">
-                <img
-                  src="./svg/notifications.svg"
-                  class="sidebar-menu__item-icon"
-                />
-                Notifications
-              </div>
-    
-              <div class="sidebar-menu__item">
-                <img src="./svg/messages.svg" class="sidebar-menu__item-icon" />
-                Messages
-              </div>
-    
-              <div class="sidebar-menu__item">
-                <img src="./svg/profile.svg" class="sidebar-menu__item-icon" />
-                Profile
-              </div>
-    
-              <div class="sidebar-menu__item">
-                <img src="./svg/more.svg" class="sidebar-menu__item-icon" />
-                More
-              </div>
+<div class="container__left-sidebar-container">
+<img src="./svg/twitter.svg" class="brand" />
+<div class="sidebar-menu">
+<div class="sidebar-menu__item sidebar-menu__item--active">
+<img src="./svg/home.svg" class="sidebar-menu__item-icon" />
+Home
+</div>
+<div class="sidebar-menu__item">
+<img src="./svg/explore.svg" class="sidebar-menu__item-icon" />
+Explore
+</div>
+
+<div class="sidebar-menu__item">
+<img
+src="./svg/notifications.svg"
+class="sidebar-menu__item-icon"
+/>
+Notifications
+</div>
+
+<div class="sidebar-menu__item">
+<img src="./svg/messages.svg" class="sidebar-menu__item-icon" />
+Messages
+</div>
+
+<div class="sidebar-menu__item">
+<img src="./svg/profile.svg" class="sidebar-menu__item-icon" />
+Profile
+</div>
+
+<div class="sidebar-menu__item">
+<img src="./svg/more.svg" class="sidebar-menu__item-icon" />
+More
+</div>
+</div>
+
+</div>
+<!-- Adding content to the middle timeline src image, text , logo, links-->
+<div class="container__timeline-container">
+<div class="container__timeline-tweet">
+<img class="tweet__author-logo" src="./img/profile-image-1.jpg" />
+<div class="tweet__main">
+<div class="tweet__header">
+<div class="tweet__author-name">Steph Jr Developer</div>
+<div class="tweet__author-slug">@stephjnrdev</div>
+<div class="tweet__publish-time">38m</div>
+</div>
+<div class="tweet__content">
+              I have been learning so much on my course of Junior Software Developer.
+              Including creating this twitter clone page
+              You should check out their linkendIn page. ESSA is changing lives!
+              <a href="https://www.linkedin.com/company/essa-software-skills/"
+                >https://www.linkedin.com/company/essa-software-skills/</a>
+              <img class="tweet__image" src="./img/ESSA.png" />
             </div>
-          
-        </div>
+</div>
+</div>
 
-            <div class="container__timeline-container">
-                <div class="container__timeline">
-                    <h1>RTE News Main Side</h1>
-                    <h2>RTE News</h2>
-                    <p>RTÉ News and Current Affairs - Irish and International News</p>
-                    <p></p>
-                </div>
+<div class="container__timeline-tweet">
+<img class="tweet__author-logo" src="./img/profile-image-3.jpg" />
+<div class="tweet__main">
+<div class="tweet__header">
+<div class="tweet__author-name">Lais Dr devPython Sneack </div>
+<div class="tweet__author-slug">@lasdrdev</div>
+<div class="tweet__publish-time">45m</div>
+</div>
+<div class="tweet__content">
+              Overall, Python's versatility and large ecosystem of libraries and frameworks make it a go-to language for a wide variety of tasks, 
+              ranging from simple scripting to complex scientific computing and machine learning projects. I used IDE Shell to create my first Hello World and many more.
+                What is helpful is that python has a library documentation. Check out the documentation
+              <a href="https://docs.python.org/3/contents.html"
+                >https://docs.python.org/3/contents.html</a>
+              <img class="tweet__image" src="./img/IDEshell.png" />
             </div>
+</div>
+</div>
 
-            <div class="container__right-sidebar-container">
-                <div class="container__right-sidebar">
-                    <h1>Right Side</h1>
-                    <h3>Subscribe to Premium</h3>
-                    <p>Subscribe to unlock nes features and if eligible, receive a share of ads revenue.</p>
-                    <p>Subscribe button</p>
-                
-                    <h3>Who to follow</h3>
-                    <p>irish Independent -----Follow button</p>
-                    <p>breakingnews.ie -----Follow button</p>
-                    <p>Today FM -----Follow button</p>
-                </div>
-            </div>
-        
-    </div>
+<div class="container__timeline-tweet">
+<img class="tweet__author-logo" src="./img/logopc.png" />
+<div class="tweet__main">
+<div class="tweet__header">
+<div class="tweet__author-name">Junior PyCharm</div>
+<div class="tweet__author-slug">@juniorpycharm</div>
+<div class="tweet__publish-time">18m</div>
+</div>
+<div class="tweet__content">Thank you</div>
+</div>
+</div>
 
-        
+<!-- <div class="container__timeline-tweet">
+<img class="tweet__author-logo" src="./img/" />
+<div class="tweet__main">
+<div class="tweet__header">
+<div class="tweet__author-name">Lais Dr dev</div>
+<div class="tweet__author-slug">@lasdrdev</div>
+<div class="tweet__publish-time">28m</div>
+</div>
+<div class="tweet__content">Thank you</div>
+</div>
+</div> -->
+
+</div>
 
 
-        
-    </body>
+
+<div class="container__right-sidebar-container">
+<div class="container__right-sidebar">
+<h1>Right Side</h1>
+<h3>Subscribe to Premium</h3>
+<p>Subscribe to unlock nes features and if eligible, receive a share of ads revenue.</p>
+<p>Subscribe button</p>
+
+<h3>Who to follow</h3>
+<p>irish Independent -----Follow button</p>
+<p>breakingnews.ie -----Follow button</p>
+<p>Today FM -----Follow button</p>
+<div class="trends-for-you">
+<div class="trends-for-you__block">
+<div class="trends-for-you__heading">Trends for you</div>
+</div>
+<div class="trends-for-you__block">
+<div class="trends-for-you__meta-information">
+Trending in Germany
+</div>
+<div class="trends-for-you__trend-name">#iPhone12</div>
+<div class="trends-for-you__meta-information">155k Tweets</div>
+</div>
+<div class="trends-for-you__block">
+<div class="trends-for-you__meta-information">
+Trending in Germany
+</div>
+<div class="trends-for-you__trend-name">#AmazonPrimeDay</div>
+</div>
+<div class="trends-for-you__block">
+<div class="trends-for-you__meta-information">
+Trending - Trending
+</div>
+<div class="trends-for-you__trend-name">#autos</div>
+<div class="trends-for-you__meta-information">2,800 Tweets</div>
+</div>
+</div>
+
+</div>
+
+            
+
+
+
+
+
+
+</body>
 </html>
